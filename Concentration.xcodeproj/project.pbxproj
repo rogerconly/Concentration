@@ -7,23 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C35A0AC025541F1500536DD3 /* ConcentrationThemeChooserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C35A0ABF25541F1500536DD3 /* ConcentrationThemeChooserViewController.swift */; };
 		C3E202E125483BA100D2FD7A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3E202E025483BA100D2FD7A /* AppDelegate.swift */; };
 		C3E202E325483BA100D2FD7A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3E202E225483BA100D2FD7A /* SceneDelegate.swift */; };
-		C3E202E525483BA100D2FD7A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3E202E425483BA100D2FD7A /* ViewController.swift */; };
+		C3E202E525483BA100D2FD7A /* ConcentrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3E202E425483BA100D2FD7A /* ConcentrationViewController.swift */; };
 		C3E202E825483BA100D2FD7A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3E202E625483BA100D2FD7A /* Main.storyboard */; };
 		C3E202EA25483BA400D2FD7A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C3E202E925483BA400D2FD7A /* Assets.xcassets */; };
 		C3E202ED25483BA400D2FD7A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3E202EB25483BA400D2FD7A /* LaunchScreen.storyboard */; };
+		C3E202FA2548664F00D2FD7A /* Concentration.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3E202F92548664F00D2FD7A /* Concentration.swift */; };
+		C3E202FD2548672200D2FD7A /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3E202FC2548672200D2FD7A /* Card.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C35A0ABF25541F1500536DD3 /* ConcentrationThemeChooserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConcentrationThemeChooserViewController.swift; sourceTree = "<group>"; };
 		C3E202DD25483BA100D2FD7A /* Concentration.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Concentration.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3E202E025483BA100D2FD7A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C3E202E225483BA100D2FD7A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		C3E202E425483BA100D2FD7A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C3E202E425483BA100D2FD7A /* ConcentrationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConcentrationViewController.swift; sourceTree = "<group>"; };
 		C3E202E725483BA100D2FD7A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C3E202E925483BA400D2FD7A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C3E202EC25483BA400D2FD7A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C3E202EE25483BA400D2FD7A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C3E202F92548664F00D2FD7A /* Concentration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Concentration.swift; sourceTree = "<group>"; };
+		C3E202FC2548672200D2FD7A /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +46,7 @@
 		C3E202D425483BA100D2FD7A = {
 			isa = PBXGroup;
 			children = (
+				C3E202F725483CF900D2FD7A /* Supporting Files */,
 				C3E202DF25483BA100D2FD7A /* Concentration */,
 				C3E202DE25483BA100D2FD7A /* Products */,
 			);
@@ -56,15 +63,25 @@
 		C3E202DF25483BA100D2FD7A /* Concentration */ = {
 			isa = PBXGroup;
 			children = (
-				C3E202E025483BA100D2FD7A /* AppDelegate.swift */,
+				C3E202F92548664F00D2FD7A /* Concentration.swift */,
+				C3E202FC2548672200D2FD7A /* Card.swift */,
 				C3E202E225483BA100D2FD7A /* SceneDelegate.swift */,
-				C3E202E425483BA100D2FD7A /* ViewController.swift */,
+				C3E202E425483BA100D2FD7A /* ConcentrationViewController.swift */,
 				C3E202E625483BA100D2FD7A /* Main.storyboard */,
-				C3E202E925483BA400D2FD7A /* Assets.xcassets */,
-				C3E202EB25483BA400D2FD7A /* LaunchScreen.storyboard */,
+				C35A0ABF25541F1500536DD3 /* ConcentrationThemeChooserViewController.swift */,
 				C3E202EE25483BA400D2FD7A /* Info.plist */,
 			);
 			path = Concentration;
+			sourceTree = "<group>";
+		};
+		C3E202F725483CF900D2FD7A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C3E202E025483BA100D2FD7A /* AppDelegate.swift */,
+				C3E202E925483BA400D2FD7A /* Assets.xcassets */,
+				C3E202EB25483BA400D2FD7A /* LaunchScreen.storyboard */,
+			);
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,7 +154,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C3E202E525483BA100D2FD7A /* ViewController.swift in Sources */,
+				C3E202E525483BA100D2FD7A /* ConcentrationViewController.swift in Sources */,
+				C3E202FA2548664F00D2FD7A /* Concentration.swift in Sources */,
+				C3E202FD2548672200D2FD7A /* Card.swift in Sources */,
+				C35A0AC025541F1500536DD3 /* ConcentrationThemeChooserViewController.swift in Sources */,
 				C3E202E125483BA100D2FD7A /* AppDelegate.swift in Sources */,
 				C3E202E325483BA100D2FD7A /* SceneDelegate.swift in Sources */,
 			);
@@ -289,6 +309,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4QC3T6DL7U;
 				INFOPLIST_FILE = Concentration/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -308,6 +329,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4QC3T6DL7U;
 				INFOPLIST_FILE = Concentration/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
